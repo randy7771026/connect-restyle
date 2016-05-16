@@ -1,0 +1,240 @@
+body {
+
+}
+font {
+  color: #0277bd;
+}
+
+img{
+    display: inline;
+}
+
+a {
+   color: yellow;
+   /*font-family: "Times New Roman", Times, serif;*/
+   font-size: 180%;
+   display: inline;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #003366;
+   /* font-family: "Times New Roman", Times, serif;*/
+    font-size: 180%;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 5px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    /*background-color: #BFCCD9;*/
+    background-color: rgba(0, 51, 102, 0.7);
+}
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    /*background-color: #0277bd;*/
+    background-color: #ffffff;
+    display: none;
+    border: none;
+    box-shadow: none;
+}
+
+/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
+div.panel.show {
+    display: block !important;
+}
+
+div.panel hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div.panel a {
+  font-size: 150%;
+}
+/*PHILLIP, SARAH, JAISON, JABARI - The Astronauts!  Randy - Mission Control  */
+
+div.banner {
+  height: 100vh;
+  background-image: url("images/HPDConnectBanner.png");
+  background-size: cover;
+}
+
+.banner #navbar-title {
+  text-align: center;
+  background: grey;
+  color: white;
+  background-color: rgba(0, 51, 102, 0.7);
+}
+
+#navbar-title {
+  position: relative;
+  z-index: 99;
+}
+
+#hpd-seal {
+  width: 64px;
+  height: 64px;
+  margin-top: 20px;
+}
+
+.banner-title {
+  margin-top: 5px;
+}
+
+.banner #navbar-title.pastBanner {
+  width: 100%;
+  top: 0;
+  margin-top: 0;
+  text-align: center;
+  position: fixed;
+}
+
+.service {
+  position: relative;
+  z-index: 2;
+  /*background-image: url('images/some_token.png');*/
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+
+}
+
+/* PROBABLY DELETE
+.service .service-icon {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+}*/
+
+.service-icon {
+  min-width: 24px;
+  min-height: 24px;
+  width: 125px;
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+@media only screen and (max-width: 992px) {
+  .service-icon {
+    width: 75px;
+  }
+}
+
+@media (min-width: 350px) {
+  .container {
+    width: 380px;
+  }
+}
+
+@media (min-width: 500px) {
+  .container {
+    width: 480px;
+  }
+}
+
+.service .title {
+  position: absolute;
+  bottom: 20px;
+  z-index: 2;
+  width:40%;
+  text-align: center;
+  width: 231px;
+  height: 60px;
+  margin: 0 auto;
+  left:0;
+  right:0;
+}
+
+h3 {
+  margin: 0 auto;
+}
+
+div.service-container {
+  display: block;
+  padding-bottom: 15px;
+  padding-top: 15px;
+
+}
+
+div.service {
+  border: 1px solid black;
+  width: 100%;
+  height: 20vw;
+  min-height: 182px;
+
+}
+
+/*Social media icon & link styling*/
+.social-media {
+  font-size: 13px;
+  padding-top: 30px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ul {
+    overflow: auto;
+    padding-left: 0 !important;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a i {
+    background: #205D7A;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+.fa-facebook{
+    background-color: #0F54B8;
+}
+.fa-twitter {
+    background-color: #00aced;
+}
+.fa-youtube {
+    background-color: #EE3030;
+}
+.fa-headphones {
+    background-color: #1A7F2E;
+}
+.fa-rss {
+  background-color: #EE9103
+}
+.fa-newspaper-o {
+  background-color: #6A6A6A;
+}
+ul li a i:hover {
+    opacity: .6;
+}
+.center {
+  text-align: center;
+}
