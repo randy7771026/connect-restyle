@@ -17,18 +17,21 @@ a {
 }
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
+	 height: 40px;
     background-color: #003366;
    /* font-family: "Times New Roman", Times, serif;*/
     font-size: 180%;
+    padding-top: 40px;
+    padding-bottom: 40px;
     color: #fff;
     cursor: pointer;
-    width: 100%;
     text-align: left;
+    width: 100%;
     border: none;
     outline: none;
     transition: 0.4s;
-    margin-bottom: 5px;
-}
+    margin-bottom: 20px;
+ }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
