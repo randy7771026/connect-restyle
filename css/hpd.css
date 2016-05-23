@@ -62,10 +62,12 @@ div.panel a {
   font-size: 150%;
 }
 /*PHILLIP, SARAH, JAISON, JABARI - The Astronauts!  Randy - Mission Control  */
-
+.jumbotron{
+  padding-top: 100px !important;
+}
 div.banner {
   height: 100vh;
-  background-image: url("images/HPDConnectBanner.png");
+  background-image: url("../images/HPDConnectBanner.png");
   background-size: cover;
 }
 
@@ -90,11 +92,14 @@ div.banner {
 .banner-title {
   margin-top: 5px;
 }
-
+#tagline{
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: 200;
+}
 .banner #navbar-title.pastBanner {
   width: 100%;
   top: 0;
-  margin-top: 0;
   text-align: center;
   position: fixed;
 }
