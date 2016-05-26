@@ -17,13 +17,13 @@ a {
 }
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
-	 height: 40px;
-    background-color: #003366;
+	 height: 400px;
+    background-color: #ffffff;
    /* font-family: "Times New Roman", Times, serif;*/
-    font-size: 180%;
+    font-size: 20%;
     padding-top: 40px;
     padding-bottom: 40px;
-    color: #fff;
+    color: #0000cc;
     cursor: pointer;
     text-align: left;
     width: 100%;
