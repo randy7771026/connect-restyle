@@ -20,14 +20,15 @@ button.accordion {
 	 height: 400px;
     background-color: #ffffff;
    /* font-family: "Times New Roman", Times, serif;*/
-    font-size: 20%;
+    font-size: 200%;
     padding-top: 40px;
     padding-bottom: 40px;
     color: #0000cc;
     cursor: pointer;
     text-align: left;
     width: 100%;
-    border: none;
+    border: 5px;
+    border-color: #0000cc;
     outline: none;
     transition: 0.4s;
     margin-bottom: 20px;
