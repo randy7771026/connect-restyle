@@ -22,11 +22,11 @@ button.accordion {
     min-height: 182px;
     background-color: #ffffff;
    /* font-family: "Times New Roman", Times, serif;*/
-    /* font-size: 280%; */
+    font-size: 280%; 
     line-height: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
-    /* color: #0000cc;  */
+    color: #0000cc;  
     cursor: pointer;
     text-align: center;
     border: 1px solid #0000cc;
@@ -35,9 +35,13 @@ button.accordion {
  }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-button.accordion.active, button.accordion:hover {
+button.accordion {
+	opacity: 0.6;
+}
+	button.accordion.active, button.accordion:hover {
     /*background-color: #BFCCD9;*/
-    background-color: rgba(0, 51, 102, 0.7);
+    opacity: 1.0;
+    background-color: #ccd9ff;
 }
 /* Style the accordion panel. Note: hidden by default */
 div.panel {
