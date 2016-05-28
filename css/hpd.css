@@ -17,21 +17,20 @@ a {
 }
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
-	 height: 400px;
+	 width: 100%;
+    height: 20vw;
+    min-height: 182px;
     background-color: #ffffff;
    /* font-family: "Times New Roman", Times, serif;*/
-    font-size: 200%;
+    font-size: 150%;
     padding-top: 40px;
     padding-bottom: 40px;
     color: #0000cc;
     cursor: pointer;
-    text-align: left;
-    width: 100%;
-    border: 5px;
-    border-color: #0000cc;
-    outline: none;
+    text-align: center;
+    border: 1px solid #0000cc;
     transition: 0.4s;
-    margin-bottom: 20px;
+    margin: 0 auto;
  }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
