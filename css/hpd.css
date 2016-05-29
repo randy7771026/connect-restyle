@@ -19,15 +19,15 @@ a {
 button.accordion {
 	 width: 100%;
     height: 20vw;
-    min-height: 182px;
+    min-height: 250px;
     background-color: #ffffff;
    /* font-family: "Times New Roman", Times, serif;*/
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 500;
     line-height: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
-    color: rgb(51,122,183);  
+    color: rgb(51,122,183);
     cursor: pointer;
     text-align: center;
     border: 1px solid #0000cc;
@@ -46,12 +46,18 @@ button.accordion {
 }
 /* Style the accordion panel. Note: hidden by default */
 div.panel {
-    padding: 0 18px;
+    height: 80%;
+    min-height: 200px;
+    width: 85%;
     /*background-color: #0277bd;*/
-    background-color: #ffffff;
+    background-color: #ccd9ff;
     display: none;
     border: none;
     box-shadow: none;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    overflow-y: scroll;
 }
 
 /* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
