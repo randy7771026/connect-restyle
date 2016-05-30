@@ -25,7 +25,7 @@ $(function(){
               $('#navbar-title').removeClass('pastBanner');
           }
   });
-  $(".panel").each.onhover(function(){
+  $(".panel").each(function(){
     var y = $(this).parent().children("button").height();
     $(this).attr("height", y+"px")
     $(this).attr("margin-top", -y+"px")
